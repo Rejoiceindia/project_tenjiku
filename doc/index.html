@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Tenjiku</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Lato', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            'primary-accent': '#2c3e50',
+            'secondary-accent': '#c0a062',
+          }
+        }
+      }
+    }
+  </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+  <header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-sm border-b border-gray-200">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center py-4">
+        <a href="#hero" class="font-serif text-2xl font-bold text-primary-accent">Tenjiku 天竺</a>
+        <nav class="hidden md:block">
+          <ul class="flex space-x-8">
+            <li><a href="#about" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">About</a></li>
+            <li><a href="#location" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">Location</a></li>
+            <li><a href="#homes" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">Vacation Homes</a></li>
+            <li><a href="#amenities" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">Amenities</a></li>
+            <li><a href="#tva" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">TVA Membership</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="relative flex items-center justify-center min-h-[70vh] bg-cover bg-center text-white" style="background-image: url('./assets/Vacation Home -19_07_2025_3.png');">
+        <div class="absolute inset-0 bg-primary-accent/60"></div>
+        <div class="relative z-10 text-center p-4">
+            <h1 class="font-serif text-4xl md:text-6xl font-bold">Project Tenjiku (天竺)</h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-200">Experience the bliss of a peaceful Japanese Village</p>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 md:py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary-accent">About Tenjiku</h2>
+            <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Tenjiku, translated as “heavenly land”, is a first-of-its-kind project in India, offering a unique Indo-Japanese experience. We are creating an autonomous gated community of off-grid portable container homes with a natural food forest, and multiple inclusive investment opportunities to create passive income by investing in earth on our 50+ acre property.</p>
+        </div>
+    </section>
+
+    <section id="location" class="py-16 md:py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary-accent text-center">Prime Location & Connectivity</h2>
+        <p class="mt-4 text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">Located close to the Mumbai Pune Expressway, our property offers unparalleled access to major hubs.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">Connectivity From Our Land</h3>
+            <ul class="space-y-2">
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Navi Mumbai international Airport 30 Mins</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>JNPT port 60 mins</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Mumbai (South Bombay via MTHL) 45 mins</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Mumbai (western suburbs) 55 mins</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Navi Mumbai 45 mins</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Pune 60 mins</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Lonavala 20 mins</span></li>
+            </ul>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">Landmark Projects Nearby</h3>
+            <ul class="space-y-2">
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Imagicaa</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Novotel</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Woodside Estate by Godrej</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Hillview Estate by Godrej</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Aero-Estate by Lodha</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Indiabulls Golf city by Indiabulls</span></li>
+              <li class="flex items-start"><span class="text-secondary-accent mr-3 mt-1">❖</span><span>Amansara earthstar by SVB Realty</span></li>
+            </ul>
+          </div>
+        </div>
+         <div class="text-center mt-12">
+            <a href="https://goo.gl/maps/SKHpVP6jZdXNuN2g9" target="_blank" rel="noopener noreferrer" class="inline-block bg-primary-accent text-white font-bold py-3 px-8 rounded-lg hover:bg-opacity-90 transition-colors">
+              View on Google Maps
+            </a>
+         </div>
+      </div>
+    </section>
+
+    <section id="homes" class="py-16 md:py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary-accent text-center">Phase 1: Vacation Homes</h2>
+            <p class="mt-4 text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">Think beyond walls! A unique blend of Japanese precision and sustainable living.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">Project Overview</h3>
+                    <p><strong>Total Homes (Phase 1):</strong> 100</p>
+                    <p><strong>Minimum Plot Area:</strong> 1200 sq ft</p>
+                    <p>Each home is a customized, self-sufficient, off-grid unit.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">Exquisite Design</h3>
+                    <p>Homes are crafted using 2-3 portable containers and locally sourced renewable materials, incorporating sophisticated traditional Japanese architecture that blends luxury with nature.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">Investment Potential</h3>
+                    <p><strong>Construction Cost:</strong> ₹25L - ₹30L</p>
+                    <p><strong>Potential Sale Price:</strong> ₹1Cr - ₹1.5Cr</p>
+                    <p><strong>Rental Income:</strong> ₹50k - ₹1.5L/month</p>
+                    <p><strong>Maintenance:</strong> ₹6k - ₹9k/month</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="amenities" class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary-accent text-center">Amenities: Konnichiwa, Health Lifestyle!</h2>
+            <p class="mt-4 text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">We have mastered the art of balance, and our 21+ amenities are designed to deliver the same.</p>
+            <ul class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Jinja - Japanese Shrine</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Artificial Onsen</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Racing Pool (Olympic Size)</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Cycling/ Running Track</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Kids Pool</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Open Cafe</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Banquet</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Multi Purpose cricket ground</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Multi Purpose Dojo</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Restaurant</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Multiple Stalls</li>
+                <li class="bg-gray-100 p-4 rounded-md text-center font-semibold border-l-4 border-secondary-accent">Other sports (table tennis, etc.)</li>
+            </ul>
+             <div class="mt-12 bg-sky-50/70 p-6 rounded-lg border-l-4 border-primary-accent">
+                <h4 class="font-serif font-bold text-lg text-primary-accent mb-2">Financials & Management</h4>
+                <p class="text-gray-700">Amenities are funded and created by developers/farmland owners. REMS jointly manages operations, with 75% of net income transferred to owners/developers and 25% to REMS. Potential income from events and services can reach 5 to 6-digit figures monthly.</p>
+             </div>
+        </div>
+    </section>
+
+    <section id="tva" class="py-16 md:py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary-accent text-center">Natural Food Forest Membership</h2>
+            <p class="mt-4 text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">Tenjiku Virtual Assets (TVAs) are your key to our Decentralised Farming Ecosystem and passive income opportunities.</p>
+            
+            <div class="bg-white rounded-lg shadow-lg p-6 mb-12">
+                <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">What are TVAs?</h3>
+                <p>TVAs are easily tradable virtual assets (e.g., NFT Contracts) that allow individuals to earn passive income. They create opportunities for inclusive growth via remotely maintaining rarewood tree plantations, livestock breeding, beekeeping, and more within our professionally managed farm infrastructure.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 border-t-4 border-secondary-accent">
+                    <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">Golden TVA - A Generational Asset</h3>
+                    <ul class="space-y-2">
+                        <li><strong>Type:</strong> Life Membership</li>
+                        <li><strong>Availability:</strong> 100 (Given on Vacation Home purchase)</li>
+                        <li><strong>Cost:</strong> NIL (with home purchase)</li>
+                        <li><strong>Expiry:</strong> Lifetime (until ownership changes)</li>
+                        <li><strong>Privilege:</strong> Voting rights on what to grow and breed.</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 border-t-4 border-gray-400">
+                    <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">Silver TVA - Tangible Passive Income</h3>
+                     <ul class="space-y-2">
+                        <li><strong>Type:</strong> Limited Period Membership</li>
+                        <li><strong>Availability:</strong> 900 NFT Contracts</li>
+                        <li><strong>Cost:</strong> ₹45,000 (one-time)</li>
+                        <li><strong>Expiry:</strong> On teak tree harvest or 12 years.</li>
+                        <li><strong>Opportunity:</strong> Anyone can invest.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="font-serif text-2xl md:text-3xl font-bold text-primary-accent text-center mt-16 mb-10">Membership Benefits & Perks</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                 <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">High-value Teak Plantation</h3>
+                    <p>Own one high-value Teak tree per membership, remotely. Potential return of ₹1,00,000 - ₹2,00,000 on a ₹45,000 investment after 10-12 years.</p>
+                </div>
+                 <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">Passive Income Streams</h3>
+                    <p>Earn annually from remotely managed livestock. Breed up to 3 goats or 100 poultry birds (for a small monthly fee) and earn from their sale, creating consistent cash flow.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">Exclusive Discounts</h3>
+                    <p>Members, their family, and friends receive up to 40% off on amenities and other community perks.</p>
+                </div>
+                 <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="font-serif text-xl font-bold text-primary-accent mb-4">Resell & Liquidity</h3>
+                    <p>As a virtual asset (NFT), your TVA membership can be sold at a higher price in open marketplaces, making it a highly liquid investment.</p>
+                </div>
+            </div>
+             <div class="mt-12 bg-sky-50/70 p-6 rounded-lg border-l-4 border-primary-accent">
+                <h4 class="font-serif font-bold text-lg text-primary-accent mb-2">Financial Estimates Overview</h4>
+                <p><strong>Long-Term (Teak):</strong> 100% to 200% return on original investment.</p>
+                <p><strong>Annual Bonus (Livestock):</strong> 8% to 24% return on original investment.</p>
+                <p>Consistent monthly cash flows from maintenance fees benefit farmland owners and developers.</p>
+             </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="bg-primary-accent text-gray-300 py-8">
+      <div class="container mx-auto px-4 text-center">
+          <p>&copy; 2024 Project Tenjiku. All rights reserved.</p>
+      </div>
+  </footer>
+
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
