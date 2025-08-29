@@ -37,7 +37,7 @@ Total Vacation Homes in Phase 1: Minimum 50, Maximum 100.
 Minimum plot area for each vacation home: 1200 sq ft.
 
 Vacation Home Design:
--  Each home is made with intricate Japanese precision using minimum 2, & maximum 3, portable containers, along with other locally sourced renewable materials.
+-  Fully Customised each home is made with intricate Japanese precision using minimum 2, & maximum 3, portable containers, along with other locally sourced renewable materials.
 -  Each house is exclusively customized as per users needs and requirements, incorporating highly sophisticated traditional Japanese architecture that blends luxury with     natural elements within the project.
 -  Each home is equipped for Self Sufficiency and off grid living.
 
