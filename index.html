@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project Tenjiku</title>
-  <base href="{{site.baseurl}}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
@@ -34,11 +33,11 @@
         <a href="#hero" class="font-serif text-2xl font-bold text-primary-accent">Tenjiku 天竺</a>
         <nav class="hidden md:block">
           <ul class="flex space-x-8">
-            <li><a href="{{ '/#about' | relative_url }}" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">About</a></li>
-            <li><a href="{{ '/#location' | relative_url }}" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">Location</a></li>
-            <li><a href="{{ '/#homes' | relative_url }}" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">Vacation Homes</a></li>
-            <li><a href="{{ '/#amenities' | relative_url }}" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">Amenities</a></li>
-            <li><a href="{{ '/#tva' | relative_url }}" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">TVA Membership</a></li>
+            <li><a href="#about" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">About</a></li>
+            <li><a href="#location" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">Location</a></li>
+            <li><a href="#homes" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">Vacation Homes</a></li>
+            <li><a href="#amenities" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">Amenities</a></li>
+            <li><a href="#tva" class="font-bold text-gray-700 hover:text-secondary-accent transition-colors">TVA Membership</a></li>
           </ul>
         </nav>
       </div>
@@ -46,7 +45,7 @@
   </header>
 
   <main>
-    <section id="hero" class="relative flex items-center justify-center min-h-[70vh] bg-cover bg-center text-white" style="background-image: url('assets/Vacation Home -19_07_2025_3.png');">
+    <section id="hero" class="relative flex items-center justify-center min-h-[70vh] bg-cover bg-center text-white" style="background-image: url( {{ 'assets/Vacation Home -19_07_2025_3.png' | relative_url }});">
         <div class="absolute inset-0 bg-primary-accent/60"></div>
         <div class="relative z-10 text-center p-4">
             <h1 class="font-serif text-4xl md:text-6xl font-bold">Project Tenjiku (天竺)</h1>
